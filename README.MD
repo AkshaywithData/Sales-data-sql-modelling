@@ -24,8 +24,8 @@ Fact Table
 SQL Analysis
 
 
-## 4. Project Structure
-
+## 4.Project Structure
+```text
 SQL_Project/
 │
 ├── data/
@@ -39,7 +39,7 @@ SQL_Project/
 ├── insert_data.sql
 ├── analysis.sql
 └── README.md
-
+```
 
 ## 5. Database Design
 
