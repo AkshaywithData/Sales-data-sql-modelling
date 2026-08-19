@@ -1,0 +1,21 @@
+InvoiceID,SaleDate,Customer,City,Product,Category,Quantity,Amount
+1001,01-03-2026,ABC Ltd,Mumbai,Laptop,Electronics,2,80000
+1002,01-03-2026,XYZ Pvt Ltd,Pune,Mouse,Accessories,5,5000
+1003,02-03-2026,ABC Ltd,Mumbai,Keyboard,Accessories,3,4500
+1004,02-03-2026,PQR Ltd,Nashik,Laptop,Electronics,1,40000
+1005,03-03-2026,XYZ Pvt Ltd,Pune,Monitor,Electronics,2,30000
+1006,03-03-2026,ABC Ltd,Mumbai,Mouse,Accessories,10,10000
+1007,04-03-2026,LMN Ltd,Nagpur,Printer,Electronics,1,18000
+1008,04-03-2026,PQR Ltd,Nashik,Keyboard,Accessories,4,6000
+1009,05-03-2026,XYZ Pvt Ltd,Pune,Laptop,Electronics,2,80000
+1010,05-03-2026,LMN Ltd,Nagpur,Mouse,Accessories,8,8000
+1011,06-03-2026,ABC Ltd,Mumbai,Monitor,Electronics,1,15000
+1012,06-03-2026,PQR Ltd,Nashik,Mouse,Accessories,6,6000
+1013,07-03-2026,LMN Ltd,Nagpur,Laptop,Electronics,1,40000
+1014,07-03-2026,XYZ Pvt Ltd,Pune,Keyboard,Accessories,5,7500
+1015,08-03-2026,ABC Ltd,Mumbai,Printer,Electronics,2,36000
+1016,08-03-2026,PQR Ltd,Nashik,Monitor,Electronics,3,45000
+1017,09-03-2026,LMN Ltd,Nagpur,Keyboard,Accessories,2,3000
+1018,09-03-2026,XYZ Pvt Ltd,Pune,Printer,Electronics,1,18000
+1019,10-03-2026,ABC Ltd,Mumbai,Laptop,Electronics,1,40000
+1020,10-03-2026,PQR Ltd,Nashik,Mouse,Accessories,10,10000
