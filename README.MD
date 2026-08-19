@@ -4,12 +4,12 @@
 
 This project demonstrates SQL data engineering workflow using sales data, including schema design, data validation, relational modelling, data loading, and analytical queries.
 
-2. Project Objective
+## 2. Project Objective
 
 The objective is to transform raw sales data into a structured relational database and perform business analysis using SQL.
 
 
-3. Project Workflow
+## 3. Project Workflow
 
 Raw CSV
    ↓
@@ -24,7 +24,7 @@ Fact Table
 SQL Analysis
 
 
-4. Project Structure
+## 4. Project Structure
 
 SQL_Project/
 │
@@ -32,15 +32,16 @@ SQL_Project/
 │   └── raw_data.csv
 │
 ├── diagrams/
-│   ├── ERR.mwb
-│   └── ERR.png
+│   ├── ERD.mwb
+│   └── ERD.png
 │
-├── schema and insert_data.sql
+├── schema.sql
+├── insert_data.sql
 ├── analysis.sql
 └── README.md
 
 
-5. Database Design
+## 5. Database Design
 
 DimCustomer
 DimProduct
@@ -49,7 +50,7 @@ DimDate
 InvoiceFact
 
 
-6. Data Validation
+## 6. Data Validation
 
 Primary Keys
 Foreign Keys
@@ -59,7 +60,7 @@ CHECK
 Data types
 
 
-7. SQL Analysis
+## 7. SQL Analysis
 
 Top Customer by Total Sales
 Top Product by Total Sales
@@ -69,7 +70,7 @@ Monthly Sales Trend
 Top 3 Products by Quantity Sold
 
 
-8. SQL Concepts Used
+## 8. SQL Concepts Used
 
 CREATE DATABASE
 CREATE TABLE
@@ -81,7 +82,7 @@ JOIN
 GROUP BY
 ORDER BY
 
-9. Tools Used
+## 9. Tools Used
 
 MySQL
 MySQL Workbench
@@ -89,7 +90,7 @@ VS Code
 Git/GitHub
 
 
-10. How to Run
+## 10. How to Run
 
 1. Open MySQL Workbench.
 2. Run schema and insert_data.sql.
