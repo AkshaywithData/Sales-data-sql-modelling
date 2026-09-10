@@ -79,7 +79,7 @@ create table invoicefact
 (InvoiceId int primary key,
 dateid int,
 customerid int, productid int, 
-quantity int, Amount int,
+quantity int, Amount DECIMAL(12,2),
 foreign key(dateid) references Dimdate(dateid),
 foreign key(customerid) references Dimcustomer(customerid),
 foreign key(productid) references Dimproduct(productid));
