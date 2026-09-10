@@ -56,10 +56,9 @@ SQL_Project/
 
 - Primary Keys
 - Foreign Keys
-- NOT NULL
-- UNIQUE
-- CHECK
 - Data types
+- Referential integrity
+- Duplicate prevention through dimension loading logic
 
 
 ## 7. SQL Analysis
@@ -97,6 +96,13 @@ SQL_Project/
 1. Open MySQL Workbench.
 2. Run schema and insert_data.sql.
 3. Run analysis.sql.
+
+## 11. Future Improvements
+
+- Add incremental data loading
+- Add automated data quality checks
+- Add Python-based ETL pipeline
+- Integrate Power BI for interactive dashboards
 
 ## Author
 
