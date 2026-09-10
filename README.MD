@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-This project demonstrates SQL data engineering workflow using sales data, including schema design, data validation, relational modelling, data loading, and analytical queries.
+This project demonstrates SQL data engineering workflow using sales data, including schema design, data validation, relational modelling, data loading and analytical queries.
 
 ## 2. Project Objective
 
@@ -11,6 +11,7 @@ The objective is to transform raw sales data into a structured relational databa
 
 ## 3. Project Workflow
 
+```
 Raw CSV
    ↓
 Schema Design
@@ -22,10 +23,11 @@ Dimension Tables
 Fact Table
    ↓
 SQL Analysis
+```
 
 
-## 4.Project Structure
-```text
+## 4. Project Structure
+```
 SQL_Project/
 │
 ├── data/
@@ -39,55 +41,55 @@ SQL_Project/
 ├── insert_data.sql
 ├── analysis.sql
 └── README.md
-```
+```   
 
 ## 5. Database Design
 
-DimCustomer
-DimProduct
-DimCategory
-DimDate
-InvoiceFact
+- DimCustomer
+- DimProduct
+- DimCategory
+- DimDate
+- InvoiceFact
 
 
 ## 6. Data Validation
 
-Primary Keys
-Foreign Keys
-NOT NULL
-UNIQUE
-CHECK
-Data types
+- Primary Keys
+- Foreign Keys
+- NOT NULL
+- UNIQUE
+- CHECK
+- Data types
 
 
 ## 7. SQL Analysis
 
-Top Customer by Total Sales
-Top Product by Total Sales
-Total Sales by Category
-Total Sales by City
-Monthly Sales Trend
-Top 3 Products by Quantity Sold
+1. Top Customer by Total Sales
+2. Top Product by Total Sales
+3. Total Sales by Category
+4. Total Sales by City
+5. Monthly Sales Trend
+6. Top 3 Products by Quantity Sold
 
 
 ## 8. SQL Concepts Used
 
-CREATE DATABASE
-CREATE TABLE
-PRIMARY KEY
-FOREIGN KEY
-AUTO_INCREMENT
-INSERT
-JOIN
-GROUP BY
-ORDER BY
+- CREATE DATABASE
+- CREATE TABLE
+- PRIMARY KEY
+- FOREIGN KEY
+- AUTO_INCREMENT
+- INSERT
+- JOIN
+- GROUP BY
+- ORDER BY
 
 ## 9. Tools Used
 
-MySQL
-MySQL Workbench
-VS Code
-Git/GitHub
+- MySQL
+- MySQL Workbench
+- VS Code
+- Git/GitHub
 
 
 ## 10. How to Run
@@ -96,3 +98,6 @@ Git/GitHub
 2. Run schema and insert_data.sql.
 3. Run analysis.sql.
 
+## Author
+
+**Akshay Gawand**
